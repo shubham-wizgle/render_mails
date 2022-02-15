@@ -1,0 +1,308 @@
+[https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/IndiGo%20Logo.png]
+PNR/Booking Ref.: CFTD2L
+Status  Date of Booking*        Payment Status
+CONFIRMED       09Feb22 09:16:00 (UTC)  Approved
+*Booking Date reflects in UTC (Universal Time Coordinated), all other timings mentioned are as per Local Time.
+
+IndiGo Passenger - 1/8
+Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080ee&cid=DM785&bid=140607757&p1=depDate=2022-04-20%7Corigin=COK%7Cdestination=BOM%7CflightNo=6302>
+[http://t.marketing.goindigo.in/barcode/t128/h50/s1/z0/v.CFTD2L/barcode.gif]
+Mr. Rahul Mirchandani
+
+IndiGo Flight(s)
+Date    From (Terminal) Departs Flight Number
+(Aircraft type) Check-in/Bag
+drop closes     To (Terminal)   Arrives Via
+20 Apr 22       Kochi (T1)      13:10   6E 6302
+(A320)  12:10   Mumbai (T1)     15:20
+
+Seats and Additional Services
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM
+Passenger Name  Seat    Services Purchased
+Mr. Rahul Mirchandani
+5D      CPML,CPTR
+
+
+Status  Date of Booking*        Payment Status
+CONFIRMED       09Feb22 09:16:00 (UTC)  Approved
+*Booking Date reflects in UTC (Universal Time Coordinated), all other timings mentioned are as per Local Time.
+
+IndiGo Passenger - 2/8
+Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080ee&cid=DM785&bid=140607757&p1=depDate=2022-04-20%7Corigin=COK%7Cdestination=BOM%7CflightNo=6302>
+[http://t.marketing.goindigo.in/barcode/t128/h50/s1/z0/v.CFTD2L/barcode.gif]
+Ms. Nitya Mirchandani
+
+IndiGo Flight(s)
+Date    From (Terminal) Departs Flight Number
+(Aircraft type) Check-in/Bag
+drop closes     To (Terminal)   Arrives Via
+20 Apr 22       Kochi (T1)      13:10   6E 6302
+(A320)  12:10   Mumbai (T1)     15:20
+
+Seats and Additional Services
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM   
+Passenger Name  Seat    Services Purchased
+Ms. Nitya Mirchandani
+5E      CPML,CPTR
+
+
+Status  Date of Booking*        Payment Status
+CONFIRMED       09Feb22 09:16:00 (UTC)  Approved
+*Booking Date reflects in UTC (Universal Time Coordinated), all other timings mentioned are as per Local Time.
+
+IndiGo Passenger - 3/8
+Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080ee&cid=DM785&bid=140607757&p1=depDate=2022-04-20%7Corigin=COK%7Cdestination=BOM%7CflightNo=6302>
+[http://t.marketing.goindigo.in/barcode/t128/h50/s1/z0/v.CFTD2L/barcode.gif]
+Mr. Armaan Mirchandani
+
+IndiGo Flight(s)
+Date    From (Terminal) Departs Flight Number
+(Aircraft type) Check-in/Bag
+drop closes     To (Terminal)   Arrives Via
+20 Apr 22       Kochi (T1)      13:10   6E 6302
+(A320)  12:10   Mumbai (T1)     15:20
+
+Seats and Additional Services
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM   
+Passenger Name  Seat    Services Purchased
+Mr. Armaan Mirchandani
+5F      CPML,CPTR
+
+
+Status  Date of Booking*        Payment Status
+CONFIRMED       09Feb22 09:16:00 (UTC)  Approved
+*Booking Date reflects in UTC (Universal Time Coordinated), all other timings mentioned are as per Local Time.
+
+IndiGo Passenger - 4/8
+Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080ee&cid=DM785&bid=140607757&p1=depDate=2022-04-20%7Corigin=COK%7Cdestination=BOM%7CflightNo=6302>
+[http://t.marketing.goindigo.in/barcode/t128/h50/s1/z0/v.CFTD2L/barcode.gif]
+Mr. Akshay Mirchandani
+
+IndiGo Flight(s)
+Date    From (Terminal) Departs Flight Number
+(Aircraft type) Check-in/Bag
+drop closes     To (Terminal)   Arrives Via
+20 Apr 22       Kochi (T1)      13:10   6E 6302
+(A320)  12:10   Mumbai (T1)     15:20
+
+Seats and Additional Services
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM   
+Passenger Name  Seat    Services Purchased
+Mr. Akshay Mirchandani
+6C      CPML,CPTR
+
+
+Status  Date of Booking*        Payment Status
+CONFIRMED       09Feb22 09:16:00 (UTC)  Approved
+*Booking Date reflects in UTC (Universal Time Coordinated), all other timings mentioned are as per Local Time.
+
+IndiGo Passenger - 5/8
+Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080ee&cid=DM785&bid=140607757&p1=depDate=2022-04-20%7Corigin=COK%7Cdestination=BOM%7CflightNo=6302>
+[http://t.marketing.goindigo.in/barcode/t128/h50/s1/z0/v.CFTD2L/barcode.gif]
+Mr. Amol Mirchandani
+
+IndiGo Flight(s)
+Date    From (Terminal) Departs Flight Number
+(Aircraft type) Check-in/Bag
+drop closes     To (Terminal)   Arrives Via
+20 Apr 22       Kochi (T1)      13:10   6E 6302
+(A320)  12:10   Mumbai (T1)     15:20
+
+Seats and Additional Services
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM   
+Passenger Name  Seat    Services Purchased
+Mr. Amol Mirchandani
+6B      CPML,CPTR
+
+
+Status  Date of Booking*        Payment Status
+CONFIRMED       09Feb22 09:16:00 (UTC)  Approved
+*Booking Date reflects in UTC (Universal Time Coordinated), all other timings mentioned are as per Local Time.
+
+IndiGo Passenger - 6/8
+Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080ee&cid=DM785&bid=140607757&p1=depDate=2022-04-20%7Corigin=COK%7Cdestination=BOM%7CflightNo=6302>
+[http://t.marketing.goindigo.in/barcode/t128/h50/s1/z0/v.CFTD2L/barcode.gif]
+Mrs. Aparna Mirchandani
+
+IndiGo Flight(s)
+Date    From (Terminal) Departs Flight Number
+(Aircraft type) Check-in/Bag
+drop closes     To (Terminal)   Arrives Via
+20 Apr 22       Kochi (T1)      13:10   6E 6302
+(A320)  12:10   Mumbai (T1)     15:20
+
+Seats and Additional Services
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM   
+Passenger Name  Seat    Services Purchased
+Mrs. Aparna Mirchandani
+6A      CPML,CPTR
+
+
+Status  Date of Booking*        Payment Status
+CONFIRMED       09Feb22 09:16:00 (UTC)  Approved
+*Booking Date reflects in UTC (Universal Time Coordinated), all other timings mentioned are as per Local Time.
+
+IndiGo Passenger - 7/8
+Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080ee&cid=DM785&bid=140607757&p1=depDate=2022-04-20%7Corigin=COK%7Cdestination=BOM%7CflightNo=6302>
+[http://t.marketing.goindigo.in/barcode/t128/h50/s1/z0/v.CFTD2L/barcode.gif]
+Mr. Aman Mirchandani
+
+IndiGo Flight(s)
+Date    From (Terminal) Departs Flight Number
+(Aircraft type) Check-in/Bag
+drop closes     To (Terminal)   Arrives Via
+20 Apr 22       Kochi (T1)      13:10   6E 6302
+(A320)  12:10   Mumbai (T1)     15:20
+
+Seats and Additional Services
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM   
+Passenger Name  Seat    Services Purchased
+Mr. Aman Mirchandani
+7D      CPML,CPTR
+
+
+Status  Date of Booking*        Payment Status
+CONFIRMED       09Feb22 09:16:00 (UTC)  Approved
+*Booking Date reflects in UTC (Universal Time Coordinated), all other timings mentioned are as per Local Time.
+
+IndiGo Passenger - 8/8
+Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080ee&cid=DM785&bid=140607757&p1=depDate=2022-04-20%7Corigin=COK%7Cdestination=BOM%7CflightNo=6302>
+[http://t.marketing.goindigo.in/barcode/t128/h50/s1/z0/v./barcode.gif]
+Mrs. Karishma Mirchandai
+[https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/infant.png]      infant : Hrehan Mirchandani
+
+IndiGo Flight(s)
+Date    From (Terminal) Departs Flight Number
+(Aircraft type) Check-in/Bag
+drop closes     To (Terminal)   Arrives Via
+20 Apr 22       Kochi (T1)      13:10   6E 6302
+(A320)  12:10   Mumbai (T1)     15:20
+
+Seats and Additional Services
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM   
+Passenger Name  Seat    Services Purchased
+Mrs. Karishma Mirchandai
+7F      CPML,CPTR, Infant Fee
+
+
+
+Tips for a hassle-free travel experience
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/check-in.png]
+Free mandatory web check-inCheck-in online for free 48 hr to 60 min before flight. Facilitation fee of ₹200 for airport check-in with assistance.<https://outlook.office.com/mail/inbox/id/AAQkADE2YjM3ZTQ5LWVhZWYtNGUxOS04Y2U0LTg2NGM5OWM5NGZjYQAQAPMgZTf9wAhNuIon3pUcrBc%3D#x_m_-3997567346115261503_m_-5311620199346306244_>
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/120-mins.png]
+120 min before departureReach the airport to allow yourself sufficient time for necessary procedures.<https://outlook.office.com/mail/inbox/id/AAQkADE2YjM3ZTQ5LWVhZWYtNGUxOS04Y2U0LTg2NGM5OWM5NGZjYQAQAPMgZTf9wAhNuIon3pUcrBc%3D#x_m_-3997567346115261503_m_-5311620199346306244_>
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/45-mins.png]
+60 min before departureDrop your bags and proceed for boarding.<https://outlook.office.com/mail/inbox/id/AAQkADE2YjM3ZTQ5LWVhZWYtNGUxOS04Y2U0LTg2NGM5OWM5NGZjYQAQAPMgZTf9wAhNuIon3pUcrBc%3D#x_m_-3997567346115261503_m_-5311620199346306244_>
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/25-mins.png]
+25 min before departureBoarding gate closes.<https://outlook.office.com/mail/inbox/id/AAQkADE2YjM3ZTQ5LWVhZWYtNGUxOS04Y2U0LTg2NGM5OWM5NGZjYQAQAPMgZTf9wAhNuIon3pUcrBc%3D#x_m_-3997567346115261503_m_-5311620199346306244_>
+
+Travel and Baggage Information
+COK     [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Direction%20Arrow.png]   BOM   
+•  Fare Type: Corporate Fare
+•  Airport counters close 60 minutes prior to the scheduled departure time.
+•  Boarding gates close 25 minutes prior to the scheduled departure time.
+•   Check-in Baggage: 15kg per person (1 piece only). Excess baggage/additional piece is subject to applicable charges.
+•   Disclaimer: 15 Kg per person (One piece only). For Double/Triple or MultiSeats bookings, extra 10 kg will be applicable. Baggage in excess of 15 kg will be subject to additional charges of INR 1000 per piece in addition to the excess baggage charges of INR 500 per kg at the airport.
+•   Hand Baggage: One hand bag up to 10 kgs and 115 cms (L+W+H), shall be allowed per customer. For contactless travel we recommend to place it under the seat in front, on board.
+•   Check-in baggage allowance for Infant: No Baggage
+•   Hand Baggage Allowance for Infant: One hand bag up to 10 kgs and 115 cms (L+W+H), shall be allowed per customer. For contactless travel we recommend to place it under the seat in front, on board.
+•   For infants, valid birth certificate is required
+•   No Change Fee**
+•   No Cancellation Fee**
+•  All passengers must present valid photo identification in original at the time of check-in.
+•   For Cards issued outside India: All our customers using cards issued outside India will be unable to perform web check-in, as card verification is necessary. Customers travelling on such bookings must present either a hard or soft copy of their signed card for verification at the time of check-in at the airport. If the transaction remains un-verified, the amount will be refunded, and you can complete the same booking using an alternate mode of payment. Please note that failing which, your booking will be cancelled and the amount will be forfeited. We strongly recommend you to check your registered email ID for all the notifications regarding your booking.   
+•  Carry a printed or soft copy of boarding pass and baggage tag, you can print them at the airport kiosk as well. Please note only certain airports are equipped with kiosks which print baggage tags, hence it is advised that you mention your name and PNR on a thick paper and tag it to your baggage before reaching the airport.
+•  Remember to wear your mask, carrying a sanitiser is recommended.
+•  Please check state guidelines https://bit.ly/3dC9zT5<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080f1>, before the journey..
+
+**T&C Apply
+Travel advisory: Safety during COVID-19
+We seek your kind assistance to safeguard your well-being, as well as that of your fellow passengers and our crew on board our flights, by following the guidelines set out below:
+•       All customers should wear a mask and sanitize their hands before proceeding to the boarding gate.
+•       Customers must wear a face mask covering their nose and mouth, throughout their journey with IndiGo. The mask may be removed only while eating and drinking.
+•       Please maintain appropriate social distancing while boarding and de-boarding the aircraft.
+•       Kindly adhere to all the announcements and other directives issued by our ground staff and/or crew at all points of time during your journey.
+•       Customers are also requested to familiarise themselves with the guidelines for air passengers published by the Indian Ministry of Civil Aviation on the following link:
+https://www.civilaviation.gov.in/sites/default/files/Guidelines_for_Air_Passengers_21May.pdf<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080f7&cid=DM785&bid=140607757>
+https://www.mohfw.gov.in/pdf/Guidelinesfordomestictravelflighttrainshipbusinterstatetravel.pdf<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080f8>
+•       Caution: Customers are advised to strictly follow all COVID-19 protocols. Failure to comply with these guidelines and the directions of our ground staff and/or crew may attract penal action against the concerned individual.
+For Your Benefits
+[booking.jpg]<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c4080fe&cid=DM785&bid=140607757&p1=https://www.booking.com/index.en-gb.html?aid=1340950&label=gen_ban&p2=2019-2-2-Mumbai-1>      [state_itinerary.png] <http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408101&cid=DM785&bid=140607757&p1=https://www.goindigo.in/information/state-regulations.html&p2=2019-2-2-Mumbai-2>       
+
+Terms & Conditions
+
+  *   • For more information on your itinerary, please click here<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408109&cid=DM785&bid=140607757>
+  *   • To read our conditions of carriage as per Indian regulations, please click here<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40810a&cid=DM785&bid=140607757>
+  *   • For details on the Passenger Charter’ issued by the Ministry of Civil Aviation (MoCA), please click here<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40810b&cid=DM785&bid=140607757>
+
+
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/itinerary_icon.jpg]
+
+For your information
+
+[https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/itinerary/aocsban1.png]        [https://www.goindigo.in//content/dam/goindigo/generic-campaigns/email-campaigns/itinerary/AirSewa1.jpg]
+
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/welcomeheritage12aug20/bannerUrbanDrive.jpg]<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40810e>
+Fare Summary
+Total Fare
+Refund Amount
+Personal contact information
+Address : U-88, MIDC, HINGNA ROAD
+Company Name : VSAR TECHNOLOGIES
+Home Phone : 91*9820710617
+Email : support@wtfares.com<mailto:support@wtfares.com>
+Update Contact details<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40810f&cid=DM785&bid=140607757&p1=CFTD2L&p2=Mirchandani>
+
+GST Information
+GST Company Name : ARIES AGRO LIMITED
+GST Number : 27AAACA5035G1Z1
+
+Interglobe Aviation ltd.(IndiGo), Global Business Park, Gurgaon, Haryana, India. Call 0124-4973838 or 0124-6173838
+Your lean, clean flying machine is ready.<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408110&cid=DM785&bid=140607757>   
+<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408111&cid=DM785&bid=140607757>
+<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408112&cid=DM785&bid=140607757>
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/lcfmitinerary/A-ZDisinfection.png]
+A-Z disinfection of all touchpoints
+<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408113&cid=DM785&bid=140607757>
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/lcfmitinerary/HEPA.png]
+The cabin air is HEPA-filtered
+<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408114&cid=DM785&bid=140607757>
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/lcfmitinerary/protectiveEquipment.png]
+Protective equipment for staff
+<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408115&cid=DM785&bid=140607757>
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/lcfmitinerary/contactLess.png]
+Going online for contactless travel
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/appstore.png]<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408116&cid=DM785&bid=140607757>     [https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/playstore.png] <http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408117>
+Book Flight<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408118&cid=DM785&bid=140607757> | Flight Status<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408119&cid=DM785&bid=140607757> | Edit Booking<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40811a&cid=DM785&bid=140607757> | Check-in<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40811b&cid=DM785&bid=140607757> | View GST Invoice<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40811c&cid=DM785&bid=140607757> | Partner Login<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40811d&cid=DM785&bid=140607757> | FAQs<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40811e&cid=DM785&bid=140607757> | Contact Us<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c40811f&cid=DM785&bid=140607757>
+Copyright 2022 IndiGo All rights reserved.
+[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/facebook.png]<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408120&cid=DM785&bid=140607757>[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/Instagram.png]<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408121>[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/twitter.png]<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408122>[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/youtube.png]<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408123>[https://www.goindigo.in/content/dam/goindigo/generic-campaigns/email-campaigns/new_itinerary/linkedin.png]<http://rt1-t.customer.goindigo.in/r/?id=h861810d,c4080eb,c408124>
+
+
+
+--
+
+Customer Delight Team 9168831888 9168891444 9168846444
+
+
+[https://docs.google.com/uc?export=download&id=1qRmcVeZdPPA4JTUoyXoWmSiPJ6MmyYut&revid=0B2N9m41V6Cg9Skt5b3JZa1hsMURjSEZyeWhoNFhzMk8wdE5NPQ]
+
+
+For any Queries just Whatsapp<http://wa.me/919168846444> mention your booking ID/ PNR.
+
+
+
+
+Booking Conditions -
+
+  *   Fare / Seat Subject to availability at the time of ticket issuance.
+  *   Kindly check all tickets/ itinerary and inform within 30mins. Changes informed beyond this will not be considered & WTFARES.com will not accept any liability.
+  *    Please advice GST No. if any, before issuance of ticket.
+  *   Please check visa requirement before issuance of ticket.
+  *   Booking FEE charged at the time of booking 118 Rs per passenger per way is NON refundable incase of whether it is flight cancellation / normal cancellation / free cancellation.
+  *   All Airlines refund are subject to airlines and credit being received in our banks. WTFARES holds no responsibility in this. If you have any objection do not proceed with ticket issuance and write back to us within 30 minutes.
+
+"India's 1st OTA to Offer FREE Cancellation on all domestic Flights"
+
+As Seen In- YourStory Interview<https://yourstory.com/2016/11/wtfares/> | TravHQ Feature Startup<https://www.travhq.com/industry/startup-feature/meet-the-startup-that-wants-to-get-rid-of-what-we-hate-the-most-about-airline-tickets/> | Top 12 Travel Apps<https://yourstory.com/2016/11/amazing-12-travel-apps/> | Indian CEO<https://indianceo.in/startup/wtfares-airticket-cancellation-possibility/>       
+
+Companies :- WTFARES.com<http://wtfares.com/> | TravForce CRM<http://travforce.com/>| HackHotels.com<http://hackhotels.com/> | SoSeychelles.com<http://soseychelles.com/>

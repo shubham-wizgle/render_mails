@@ -1,5 +1,6 @@
 const Imap = require('imap');
 const {simpleParser} = require('mailparser');
+const HTMLParser = require('node-html-parser');
 const imapConfig = {
   user: 'testwizgle@gmail.com',
   password: '1Jan@2017',
@@ -14,12 +15,13 @@ const getEmails = () => {
     const imap = new Imap(imapConfig);
     imap.once('ready', () => {
       imap.openBox('INBOX', false, () => {
-        imap.search(['SEEN', ['BEFORE', new Date()]], (err, results) => {
+        imap.search([['FROM', 'shubham@wizgle.com']], (err, results) => {
           const f = imap.fetch(results, {bodies: ''});
           f.on('message', msg => {
             msg.on('body', stream => {
               simpleParser(stream, async (err, parsed) => {
                 // const {from, subject, textAsHtml, text} = parsed;
+                const root = HTMLParser.parse(parsed.html);
                 console.log(parsed);
                 /* Make API call to save the data
                    Save the retrieved data into a database.
@@ -27,13 +29,13 @@ const getEmails = () => {
                 */
               });
             });
-            msg.once('attributes', attrs => {
-              const {uid} = attrs;
-              imap.addFlags(uid, ['\\Seen'], () => {
-                // Mark the email as read after reading it
-                console.log('Marked as read!');
-              });
-            });
+            // msg.once('attributes', attrs => {
+            //   const {uid} = attrs;
+            //   imap.addFlags(uid, ['\\Seen'], () => {
+            //     // Mark the email as read after reading it
+            //     console.log('Marked as read!');
+            //   });
+            // });
           });
           f.once('error', ex => {
             return Promise.reject(ex);
