@@ -1,5 +1,5 @@
 const Imap = require('imap');
-const {simpleParser} = require('mailparser');
+const { simpleParser } = require('mailparser');
 const HTMLParser = require('node-html-parser');
 const fs = require('fs')
 const imapConfig = {
@@ -11,56 +11,54 @@ const imapConfig = {
   tlsOptions: { rejectUnauthorized: false }
 };
 
+let keysArr = ['Date', 'From_Terminal', 'Flight_Number', 'Check-in', 'To_Terminal', 'Arrives', 'Via']
+
 const getEmails = () => {
   try {
     const imap = new Imap(imapConfig);
     imap.once('ready', () => {
       imap.openBox('INBOX', false, () => {
         imap.search([['FROM', 'shubham@wizgle.com']], (err, results) => {
-          const f = imap.fetch(results, {bodies: ''});
+          const f = imap.fetch(results, { bodies: '' });
           f.on('message', msg => {
             msg.on('body', stream => {
               simpleParser(stream, async (err, parsed) => {
                 // const {from, subject, textAsHtml, text} = parsed;
-                debugger
                 const root = HTMLParser.parse(parsed.html);
                 let dateObj = root.querySelectorAll("th")
-                let count = 0;
-               
-                for(let i=0;i<dateObj.length;i++){
-                  let details = '';
+                let finalObj = [];
+                let nameArr = [];
+                for (let i = 0; i < dateObj.length; i++) {
+                  let o = {};
                   //Get the details
-                  if(dateObj[i].innerText.trim() == 'Date'){
+                  if (dateObj[i].innerText.trim() == 'Date') {
                     let tbody = dateObj[i].parentNode.parentNode;
                     let arrTR2 = tbody.getElementsByTagName('tr')[1];
                     let tds = arrTR2.querySelectorAll('td');
-                    for(let j=0; j<tds.length; j++){
-                      details += ' | ' +tds[j].innerText.trim();
+                    for (let j = 0; j < tds.length; j++) {
+                      if(tds[j].innerText.trim().length)
+                        o[keysArr[j]] = tds[j].innerText.trim();
                     }
+                    finalObj.push(o);
                   }
-                  // let names = '';
-                  // //get the passenger name
-                  // if(dateObj[i].innerText.trim() == 'Passenger Name'){
-                  //   let tbody_ = dateObj[i].parentNode.parentNode;
-                  //   let arrTR2_ = tbody_.getElementsByTagName('tr')[2];
-                  //   let tds_ = arrTR2_.querySelectorAll('td');
-                  //   for(let j=0; j<tds_.length; j++){
-                  //     names += ' | ' +tds_[j].innerText.trim();
-                  //   }
-                  // }
-                  // console.log(decodeURI(names));
+                  //get the passenger name
+                  if (dateObj[i].innerText.trim() == 'Passenger Name') {
+                    let tbody_ = dateObj[i].parentNode.parentNode;
+                    let arrTR2_ = tbody_.querySelectorAll('tr')[3];
+                    let tds_ = arrTR2_.querySelectorAll('td');
+                    nameArr.push({
+                      name: tds_[0].innerText.trim(),
+                      seat: tds_[2].innerText.trim()
+                    })
+                  }
                 }
-                   console.log("count: "+count);
-                   console.log(dateObj.length)
+                for (let x = 0; x < finalObj.length; x++) {
+                  finalObj[x]['name'] = nameArr[x]['name'];
+                  finalObj[x]['seat'] = nameArr[x]['seat'];
+                }
+                console.log(JSON.stringify(finalObj))
               });
             });
-            // msg.once('attributes', attrs => {
-            //   const {uid} = attrs;
-            //   imap.addFlags(uid, ['\\Seen'], () => {
-            //     // Mark the email as read after reading it
-            //     console.log('Marked as read!');
-            //   });
-            // });
           });
           f.once('error', ex => {
             return Promise.reject(ex);
@@ -86,5 +84,5 @@ const getEmails = () => {
     console.log('an error occurred');
   }
 };
-  
-  getEmails();
+
+getEmails();
