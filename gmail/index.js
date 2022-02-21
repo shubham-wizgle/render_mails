@@ -25,38 +25,8 @@ const getEmails = () => {
               simpleParser(stream, async (err, parsed) => {
                 // const {from, subject, textAsHtml, text} = parsed;
                 const root = HTMLParser.parse(parsed.html);
-                let dateObj = root.querySelectorAll("th")
-                let finalObj = [];
-                let nameArr = [];
-                for (let i = 0; i < dateObj.length; i++) {
-                  let o = {};
-                  //Get the details
-                  if (dateObj[i].innerText.trim() == 'Date') {
-                    let tbody = dateObj[i].parentNode.parentNode;
-                    let arrTR2 = tbody.getElementsByTagName('tr')[1];
-                    let tds = arrTR2.querySelectorAll('td');
-                    for (let j = 0; j < tds.length; j++) {
-                      if(tds[j].innerText.trim().length)
-                        o[keysArr[j]] = tds[j].innerText.trim();
-                    }
-                    finalObj.push(o);
-                  }
-                  //get the passenger name
-                  if (dateObj[i].innerText.trim() == 'Passenger Name') {
-                    let tbody_ = dateObj[i].parentNode.parentNode;
-                    let arrTR2_ = tbody_.querySelectorAll('tr')[3];
-                    let tds_ = arrTR2_.querySelectorAll('td');
-                    nameArr.push({
-                      name: tds_[0].innerText.trim(),
-                      seat: tds_[2].innerText.trim()
-                    })
-                  }
-                }
-                for (let x = 0; x < finalObj.length; x++) {
-                  finalObj[x]['name'] = nameArr[x]['name'];
-                  finalObj[x]['seat'] = nameArr[x]['seat'];
-                }
-                console.log(JSON.stringify(finalObj))
+                let res = extractIndigoMail(root);
+                console.log(JSON.stringify(res))
               });
             });
           });
@@ -85,4 +55,38 @@ const getEmails = () => {
   }
 };
 
+const extractIndigoMail = (root)=>{
+  let dateObj = root.querySelectorAll("th")
+  let finalObj = [];
+  let nameArr = [];
+  for (let i = 0; i < dateObj.length; i++) {
+    let o = {};
+    //Get the details
+    if (dateObj[i].innerText.trim() == 'Date') {
+      let tbody = dateObj[i].parentNode.parentNode;
+      let arrTR2 = tbody.getElementsByTagName('tr')[1];
+      let tds = arrTR2.querySelectorAll('td');
+      for (let j = 0; j < tds.length; j++) {
+        if(tds[j].innerText.trim().length)
+          o[keysArr[j]] = tds[j].innerText.trim();
+      }
+      finalObj.push(o);
+    }
+    //get the passenger name
+    if (dateObj[i].innerText.trim() == 'Passenger Name') {
+      let tbody_ = dateObj[i].parentNode.parentNode;
+      let arrTR2_ = tbody_.querySelectorAll('tr')[3];
+      let tds_ = arrTR2_.querySelectorAll('td');
+      nameArr.push({
+        name: tds_[0].innerText.trim(),
+        seat: tds_[2].innerText.trim()
+      })
+    }
+  }
+  for (let x = 0; x < finalObj.length; x++) {
+    finalObj[x]['name'] = nameArr[x]['name'];
+    finalObj[x]['seat'] = nameArr[x]['seat'];
+  }
+  return finalObj;
+}
 getEmails();
