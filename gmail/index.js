@@ -1,6 +1,7 @@
 const Imap = require('imap');
 const {simpleParser} = require('mailparser');
 const HTMLParser = require('node-html-parser');
+const fs = require('fs')
 const imapConfig = {
   user: 'testwizgle@gmail.com',
   password: '1Jan@2017',
@@ -21,12 +22,36 @@ const getEmails = () => {
             msg.on('body', stream => {
               simpleParser(stream, async (err, parsed) => {
                 // const {from, subject, textAsHtml, text} = parsed;
+                debugger
                 const root = HTMLParser.parse(parsed.html);
-                console.log(parsed);
-                /* Make API call to save the data
-                   Save the retrieved data into a database.
-                   E.t.c
-                */
+                let dateObj = root.querySelectorAll("th")
+                let count = 0;
+               
+                for(let i=0;i<dateObj.length;i++){
+                  let details = '';
+                  //Get the details
+                  if(dateObj[i].innerText.trim() == 'Date'){
+                    let tbody = dateObj[i].parentNode.parentNode;
+                    let arrTR2 = tbody.getElementsByTagName('tr')[1];
+                    let tds = arrTR2.querySelectorAll('td');
+                    for(let j=0; j<tds.length; j++){
+                      details += ' | ' +tds[j].innerText.trim();
+                    }
+                  }
+                  // let names = '';
+                  // //get the passenger name
+                  // if(dateObj[i].innerText.trim() == 'Passenger Name'){
+                  //   let tbody_ = dateObj[i].parentNode.parentNode;
+                  //   let arrTR2_ = tbody_.getElementsByTagName('tr')[2];
+                  //   let tds_ = arrTR2_.querySelectorAll('td');
+                  //   for(let j=0; j<tds_.length; j++){
+                  //     names += ' | ' +tds_[j].innerText.trim();
+                  //   }
+                  // }
+                  // console.log(decodeURI(names));
+                }
+                   console.log("count: "+count);
+                   console.log(dateObj.length)
               });
             });
             // msg.once('attributes', attrs => {
