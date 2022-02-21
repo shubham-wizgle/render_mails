@@ -55,26 +55,35 @@ const getEmails = () => {
   }
 };
 
-const extractIndigoMail = (root)=>{
-  let dateObj = root.querySelectorAll("th")
+const extractIndigoMail = (root) => {
+
+  let rootTH = root.querySelectorAll("th")
   let finalObj = [];
   let nameArr = [];
-  for (let i = 0; i < dateObj.length; i++) {
+  let pnr = '';
+  let rootTD = root.querySelectorAll("td");
+  for (let d = 0; d < rootTD.length; d++) {
+    if (pnr == '' && rootTD[d].innerText.trim().length < 30 && rootTD[d].innerText.trim().startsWith('PNR/Booking Ref')) {
+      pnr = rootTD[d].innerText.trim().replaceAll('PNR/Booking Ref.: ', '');
+      break;
+    }
+  }
+  for (let i = 0; i < rootTH.length; i++) {
     let o = {};
     //Get the details
-    if (dateObj[i].innerText.trim() == 'Date') {
-      let tbody = dateObj[i].parentNode.parentNode;
+    if (rootTH[i].innerText.trim() == 'Date') {
+      let tbody = rootTH[i].parentNode.parentNode;
       let arrTR2 = tbody.getElementsByTagName('tr')[1];
       let tds = arrTR2.querySelectorAll('td');
       for (let j = 0; j < tds.length; j++) {
-        if(tds[j].innerText.trim().length)
+        if (tds[j].innerText.trim().length)
           o[keysArr[j]] = tds[j].innerText.trim();
       }
       finalObj.push(o);
     }
     //get the passenger name
-    if (dateObj[i].innerText.trim() == 'Passenger Name') {
-      let tbody_ = dateObj[i].parentNode.parentNode;
+    if (rootTH[i].innerText.trim() == 'Passenger Name') {
+      let tbody_ = rootTH[i].parentNode.parentNode;
       let arrTR2_ = tbody_.querySelectorAll('tr')[3];
       let tds_ = arrTR2_.querySelectorAll('td');
       nameArr.push({
@@ -87,6 +96,6 @@ const extractIndigoMail = (root)=>{
     finalObj[x]['name'] = nameArr[x]['name'];
     finalObj[x]['seat'] = nameArr[x]['seat'];
   }
-  return finalObj;
+  return { pnr: pnr, pass: finalObj };
 }
 getEmails();
