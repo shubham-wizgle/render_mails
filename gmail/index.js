@@ -26,7 +26,25 @@ const getEmails = () => {
                 // const {from, subject, textAsHtml, text} = parsed;
                 const root = HTMLParser.parse(parsed.html);
                 let res = extractIndigoMail(root);
-                console.log(JSON.stringify(res))
+                console.log(parsed.subject);
+              });
+            });
+          });
+          f.once('error', ex => {
+            return Promise.reject(ex);
+          });
+          f.once('end', () => {
+            console.log('Done fetching all messages!');
+            imap.end();
+          });
+        });
+        imap.search([['FROM', 'support@team.mailparser.io']], (err, results) => {
+          const f = imap.fetch(results, { bodies: '' });
+          f.on('message', msg => {
+            msg.on('body', stream => {
+              simpleParser(stream, async (err, parsed) => {
+                // const {from, subject, textAsHtml, text} = parsed;
+                console.log(parsed.subject);
               });
             });
           });
